@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
+    <div class="header">
+        <h1>Piano Web</h1>
+        <p>Un minimalista piano para la web</p>
+    </div>
+
+    <div class="about">
+        <p>Diseñador por:</p>
+        <h1>Omar Flores Salazar</h1>
+    </div>
+
+    <div class="container">
+        <h1>Piano Web</h1>
+        <div class="piano">
+            <ul class="set">
+                <li onclick="playC()" class="white c"></li>
+                <li onclick="playCs()" class="black cs"></li>
+                <li onclick="playD()" class="white d"></li>
+                <li onclick="playDs()" class="black ds"></li>
+                <li onclick="playE()" class="white e"></li>
+                <li onclick="playF()" class="white f"></li>
+                <li onclick="playFs()" class="black fs"></li>
+                <li onclick="playG()" class="white g"></li>
+                <li onclick="playGs()" class="black gs"></li>
+                <li onclick="playA()" class="white a"></li>
+                <li onclick="playAs()" class="black as"></li>
+                <li onclick="playB()" class="white b"></li>
+            </ul>
+        </div>
+    </div>
+
+    <audio id="c" controls>
+        <source type="audio/wav" src="audio/c.wav">
+    </audio>
+    <audio id="cs" controls>
+        <source type="audio/wav" src="audio/cs.wav">
+    </audio>
+    <audio id="d" controls>
+        <source type="audio/wav" src="audio/d.wav">
+    </audio>
+    <audio id="ds" controls>
+        <source type="audio/wav" src="audio/ds.wav">
+    </audio>
+    <audio id="e" controls>
+        <source type="audio/wav" src="audio/e.wav">
+    </audio>
+    <audio id="f" controls>
+        <source type="audio/wav" src="audio/f.wav">
+    </audio>
+    <audio id="fs" controls>
+        <source type="audio/wav" src="audio/fs.wav">
+    </audio>
+    <audio id="g" controls>
+        <source type="audio/wav" src="audio/g.wav">
+    </audio>
+    <audio id="gs" controls>
+        <source type="audio/wav" src="audio/gs.wav">
+    </audio>
+    <audio id="a" controls>
+        <source type="audio/wav" src="audio/a.wav">
+    </audio>
+    <audio id="as" controls>
+        <source type="audio/wav" src="audio/as.wav">
+    </audio>
+    <audio id="b" controls>
+        <source type="audio/wav" src="audio/b.wav">
+    </audio>
+
+    <div class="footer">
+
+    </div>
+</body>
+
+</html>
